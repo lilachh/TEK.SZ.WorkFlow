@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WorkFlowEngine.BLL" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WorkFlowEngine.BLL" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfRequestorChoice">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RequestorChoice" nillable="true" type="tns:RequestorChoice" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRequestorChoice" nillable="true" type="tns:ArrayOfRequestorChoice" />
+  <xs:complexType name="RequestorChoice">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ConditionID" type="xs:int" />
+      <xs:element minOccurs="0" name="DocumentID" type="xs:int" />
+      <xs:element minOccurs="0" name="MainSequenceID" type="xs:int" />
+      <xs:element minOccurs="0" name="SystemID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RequestorChoice" nillable="true" type="tns:RequestorChoice" />
+</xs:schema>
