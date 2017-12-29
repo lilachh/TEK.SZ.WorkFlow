@@ -12,6 +12,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkFlowPresentation", "Wor
 		{FC3F8DFC-D3A4-403C-9FFB-CE395553FA4E} = {FC3F8DFC-D3A4-403C-9FFB-CE395553FA4E}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{A1677789-E9F4-4A88-B275-5A53729A703F}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\tek_wf.bak = Documents\tek_wf.bak
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
